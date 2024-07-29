@@ -1,0 +1,204 @@
+Arrange the following Sorting Algorithms in Ascending order based on their Best Case Time Complexities.
+1. Bubble Sort
+2. Heap Sort
+3. Quick Sort
+
+Bubble Sort < Heap Sort < Quick Sort
+Heap Sort < Bubble Sort < Quick Sort
+Heap Sort < Quick Sort < Bubble Sort
+Quick Sort < Heap Sort < Bubble Sort
+
+Ans: C
+
+
+
+
+
+	Complete the Code such that the element at index K is deleted from array ARR of size N.
+
+		for(int i = k+1; i < N; i++)
+		{
+		    //CODE
+		}
+		N--;
+
+ARR[i] = ARR[i-1];
+ARR[i-1] = ARR[i];
+ARR[i] = ARR[i+1];
+ARR[i+1] = ARR[i];
+
+Ans: B
+
+
+
+
+
+
+	Complete the Code such that the element ITEM is inserted at 
+	index K in an array ARR having N elements.
+
+	for(int i = N-1; i >= K; i--)
+	{
+	    //CODE
+	}
+	ARR[K] = ITEM;
+	N++;
+
+ARR[i-1] = ARR[i];
+ARR[i] = ARR[i-1];
+ARR[i] = ARR[i+1];
+ARR[i+1] = ARR[i];
+
+Ans: D
+
+
+
+
+
+Which of the following algorithm is having Best Case time complexity Omega(1)?
+
+Linear Search
+Binary Search
+Insertion Sort
+Both Linear Search and Binary Search
+
+Ans: D
+
+
+
+
+
+Given an Array ARR = {3, 9, 2, 6, 4}
+What will be the result after applying the first PASS of Bubble Sort in this Array?
+
+3, 2, 6, 4, 9
+3, 2, 4, 6, 9
+3, 2, 6, 9, 4
+None of These
+
+Ans: A
+
+
+
+
+
+Given an Array ARR = {3, 9, 2, 6, 4}
+What will be the result after applying the first PASS of Selection Sort in this Array?
+
+3, 2, 6, 4, 9
+3, 2, 4, 6, 9
+2, 9, 3, 6, 4
+None of These
+
+Ans: C
+
+
+
+
+Arrange the following Algorithms based on their Worst Case Time complexities.
+
+Quick Sort, Heap Sort, Binary Search
+
+Quick Sort > Heap Sort > Binary Search
+Heap Sort > Quick Sort> Binary Search
+Binary Search > Quick Sort> Heap Sort
+None of These
+
+Ans:  A
+
+
+
+
+Given that f(n) = O(n*log n)
+then, f(n) = O(n^2)
+
+This statement is:
+
+Never True
+Sometimes True
+Always True
+Can not determine
+
+Ans: C
+
+
+
+
+
+Given: f(n) = n*log n and g(n) = n^2
+
+Then: 
+
+f(n) = O(g(n))
+g(n) = O(f(n))
+f(n) = OMEGA (g(n))
+None of These
+
+Ans: A
+
+
+
+Which of the following algorithm is having Space Complexity O(n)?
+
+Heap Sort
+Binary Search
+Merge Sort
+None of These
+
+
+Ans: C
+
+
+
+How many Swaps will be required in the first PASS of Bubble Sort in the given Array?
+ARR = {5, 3, 6, 2, 9}
+
+1	2	3	0
+
+Ans: B
+
+
+What will be the value of BEG and END after 1st and 2nd PASS of Binary Search, 
+if ITEM to be searched is 3?
+ARR = {9, 6, 5, 4, 4, 2}
+
+A. 2 & 5 and 4 & 5			B. 3 & 5 and 4 & 5 
+C. 3 & 5 and 5 & 5			D. 2 & 5 and 5 & 5
+
+Ans: C
+
+
+What will be the number of swaps in PASS 1, 2, 3 and 4 required to arrange the elements of ARR in ascending order using Selection sort?
+		ARR = {6, 4, 7, 3, 6} 
+A. 1, 1, 0, 1 swap respectively    B. 1, 0, 1, 1 swap respectively
+C. 1, 0, 0, 1 swap respectively    D. 1, 1, 1, 1 swap respectively
+
+
+Ans: B
+
+
+
+	What will be the complexity of the following function?
+
+	void fun (int n) {
+    		for (int i = 1; i < n; i*=2)
+    			for (int j = 0; j*j < n; j++)
+    				if (j == 3) break;
+    		for (int k = n; k > 0; k--)
+    			if (k == 3) break;
+	}
+
+	A. O(n)			B. O(log2 n)
+	C. O(n log2 n)		D. O(√n log2 n)
+
+
+Ans: A
+
+
+ What will be the MID elements for 1st, 2nd and 3rd PASS of Binary Search, if ITEM to be searched is 9?
+                 ARR = {3, 4, 6, 7, 8, 10, 11, 12}
+A. 8, 11 and 10			B. 8, 10 and 11 
+C. 7, 10 and 8			D. 7, 11 and 8
+
+
+Ans: C
